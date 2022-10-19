@@ -1,0 +1,138 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+body{
+  width: 100%;
+  background-image: #F8F8F8;
+  opacity: 100%;
+}
+#Seek{
+  border:2px solid black;
+  padding: 20px;
+}
+#form{
+  background-color: white;
+  width:80%;
+  color: black;
+  padding: 10%;
+  display:grid;
+  margin: auto;
+  margin-top:20%;
+  opacity: 100%;
+  border:1px solid grey;
+ border-radius:5px;
+}
+button{
+  color: white;
+  background-color: black;
+ 
+  padding: 5%;
+  border-radius: 10px;
+  border: 1px solid grey;
+}
+#much{
+  color:white;
+}
+#much:hover{
+  color: black;
+}
+#How{
+  display: grid;
+  margin: auto;
+  justify-content: center;
+  width: 80%;
+}
+button:hover{
+  background-color: white;
+  color: #1f71f3;
+  transition: 0.5s;
+}
+
+input{
+  color:black;
+  padding: 10%;
+  border: 1px solid grey;
+  border-radius:10px;
+}
+#logged{
+  display: grid;
+  margin: auto;
+  font-size: 20px;
+  color: #1f71f3;
+  width:80%;
+  justify-content: center;
+  margin-top:20%;
+  background-color: white;
+  color:#1f71f3;
+  border-radius:3%;
+  font-weight: 400;
+  margin-bottom:-170px ;
+  opacity: 100%;
+  border: 10px solid #1f71f3;
+  
+}
+.take{
+  font-size: 20px;
+  font-weight:400;
+  font-family: Sans-Serif;
+}
+#Field{
+  border: 2px solid black ;
+  color: black;
+  
+  margin-top: 50%;
+  color: black;
+}
+#Seek{
+  border-radius:20px;
+  background-color: #1f71f3;
+  color: white;
+  
+}
+#Seek:hover{
+  background-color: white;
+  color: #1f71f3;
+  cursor: pointer;
+  transition:0.5s;
+}
+#withdraw{
+  display: grid;
+  margin:auto;
+  margin-top:50%;
+  justify-content: center;
+  color: #1f71f3;
+}
+#inputField{
+  display: grid;
+  justify-content: center;
+  border: 2px solid black;
+  margin:auto;
+  width:50%;
+  padding: 5%;
+  margin-top: 10%;
+}
+#button{
+  display: grid;
+  justify-content: center;
+  border: 2px solid black;
+  margin:auto;
+  width:50%;
+  padding: 5%;
+  margin-top: 10%;
+}
+#button{
+  background-color: #1f71f3;
+  color: white;
+  border-radius: 15px;
+  border: none;
+}
+#button:hover{
+  color:#1f71f3;
+  background-color: white;
+  transition:0.5s;
+  transform: scale(1.0);
+  border:1px solid grey;
+}
